@@ -2,7 +2,7 @@
 
 A modern, interactive number guessing game built with HTML, CSS (Bootstrap 5), and JavaScript. Try to guess the secret number between 1 and 100 with visual feedback and progress tracking!
 
-## ✨ Features
+## Features
 
 - **Modern UI/UX**: Beautiful Bootstrap 5 design with responsive layout
 - **Visual Feedback**: Color-coded alerts for different game states
@@ -13,7 +13,7 @@ A modern, interactive number guessing game built with HTML, CSS (Bootstrap 5), a
 - **Attempts Limit**: Challenge yourself with 10 attempts to guess correctly
 - **Auto-focus**: Input field automatically focused for better UX
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -89,7 +89,7 @@ GuessNumber/
 └── README.md       # Project documentation
 ```
 
-## 🎯 Game Logic
+## Game Logic
 
 - **Random Number**: Generated once when the page loads (1-100)
 - **Maximum Attempts**: 10 guesses allowed
@@ -97,7 +97,7 @@ GuessNumber/
 - **Lose Condition**: 10 incorrect guesses
 - **Input Validation**: Only accepts numbers between 1 and 100
 
-## 🎨 UI Features
+## UI Features
 
 - **Card-based Layout**: Clean, centered card design
 - **Color-coded Alerts**:
@@ -116,19 +116,10 @@ You can easily customize the game by modifying `script.js`:
 - **Change number range**: Adjust the random number generation (line 1)
 - **Change colors**: Update Bootstrap alert classes in `showResult()` function
 
-## 📝 License
-
-This project is open source and available for educational purposes.
-
-## 🤝 Contributing
-
-Feel free to fork this project and submit pull requests for any improvements!
-
 ## 🐛 Known Issues
 
 None at the moment. If you find any bugs, please report them!
-
 ---
 
-**Enjoy playing! Good luck guessing! 🍀**
+**Enjoy playing! Good luck guessing! **
 
