@@ -1,4 +1,5 @@
 const secretNumber = Math.floor(Math.random() * 100) + 1;
+const maxAttempts = 10;
 const attempts = 1;
 
 console.log("Welcome to the Number Guessing Game!");
@@ -13,6 +14,10 @@ while (userGuess !== secretNumber) {
         guess = parseInt(prompt("Too high! Try again:"))
     }
     attempts++;
+    if (attempts === maxAttempts) {
+        alert(`Sorry, you've reached the maximum number of attempts. The number was ${secretNumber}.`);
+        break;
+    }
 }
 
 alert(`Congratulations! You guessed the number ${secretNumber} correctly!`);
